@@ -1,0 +1,36 @@
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 44px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1.3em;
+    min-height: 44px;
+    text-decoration: none;
+    color: #f7a440;
+}
+
+.nav a:hover {
+    text-decoration: blink;
+    color: #000;
+}

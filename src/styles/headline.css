@@ -1,0 +1,60 @@
+.headline__figure {
+    width: 100%;
+}
+
+.headline__figure img {
+    width: 100%;
+}
+
+.headline__figure figcaption {
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.headline__title {
+    font-size: 32px;
+    font-weight: lighter;
+    color: #f7a440;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headline__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.headline_box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.headline__images {
+    width: 100%;
+    height: 87%;
+    padding: 20px
+}
+
+.headline__content_title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    text-transform: unset;
+    line-height: 15px;
+    text-align: center;
+    position: relative;
+    padding: 4px 0;
+    height: 24px;
+    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    background-color: #f7a440!important;
+    z-index: 2;   
+}

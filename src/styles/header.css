@@ -1,0 +1,31 @@
+#img-header{
+   width: 25%;
+   padding-right: 20px;
+}
+
+.header {
+    min-height: 56px;
+    transition: min-height 0.3s;
+}
+
+.header__title {
+    font-weight: 300;
+    font-size: 4em;
+    margin: 0.5em 0.25em;
+    display: inline-block;
+    color: #212121;
+}
+
+.header__menu {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 44px;
+    min-height: 44px;
+    color: #f7a440;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

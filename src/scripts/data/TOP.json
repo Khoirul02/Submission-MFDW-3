@@ -1,0 +1,20 @@
+{
+  "topmenus": [
+    {
+      "pictureId": "/images/sate.jpg",
+      "name": "Sate"
+    },
+    {
+      "pictureId": "/images/bakso.jpg",
+      "name": "Bakso"
+    },
+    {
+      "pictureId": "/images/soto.jpg",
+      "name": "Soto"
+    },
+    {
+      "pictureId": "/images/siomay.jpg",
+      "name": "Siomay"
+    }
+  ]
+}

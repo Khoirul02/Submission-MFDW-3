@@ -1,0 +1,383 @@
+.posts {
+    display: grid;
+    grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 499px) {
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 250px; 
+        position: absolute;
+        margin-top: 70px;
+
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        text-align: left;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 50%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 10px;
+        height: 25px;
+    }
+    .post-item__description p {
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+    .post-item-detail__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+    .post-item-detail__content {
+        padding: 16px 32px 32px 32px;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: auto;
+        padding:15px;
+        overflow-x: scroll;
+    }
+    
+}
+
+@media screen and (min-width: 455px) {
+    .headline__content {
+        padding: 16px 16px;
+    }
+
+    .headline__title {
+        font-size: 28px;
+    }
+
+    .headline__description {
+        font-size: 16px;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 40%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 10px;
+        height: 25px;
+    }
+    .post-item-detail__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 150px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .header__menu {
+        display: none;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 40%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 15px;
+        height: 25px;
+    }
+    .post-item-detail__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 200px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .headline__content {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+
+    .post-item__content {
+        padding: 16px 32px 32px 32px;
+    }
+
+    .post-item__title {
+        font-size: 18px;
+    }
+
+    .post-item__description {
+        font-size: 14px;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 25px;
+        height: 30px;
+    }
+    .post-item-detail__thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 250px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 35%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 25px;
+        height: 30px;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 280px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav__list {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 40%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .headline__content_title {
+        line-height: 20px;
+        height: 30px;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 350px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .headline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .headline__content {
+        padding: 16px 32px;
+    }
+
+    .posts {
+        margin: 10px auto auto;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 40%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .post-item {
+        width: 100%;
+        height: 90%;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 180px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+    }
+    .post-item__thumbnail {
+        width: 100%;
+        height: 45%;
+    }
+    .hero__title {
+        top: 35%;
+        left: 50%;
+    }
+    .post-item {
+        width: 100%;
+        height: 90%;
+    }
+    .post-item-detail {
+        margin: 16px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 90%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .post-item-detail-food-list-review p {
+        text-align: left;
+        width: 244px;
+        padding:15px;
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,19 @@
+.latest {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.latest__label {
+    font-size: 32px;
+    font-weight: lighter;
+    color: #f7a440;
+    font-weight: bold;
+}
+
+.latest__label::after {
+    content: '';
+    margin-top: 16px;
+    display: block;
+    border-bottom: 1px solid #f7a440;
+}
