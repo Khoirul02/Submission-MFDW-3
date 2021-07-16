@@ -77,6 +77,11 @@ module.exports = {
         }),
       ],
     }),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      analyzerHost: '127.0.0.1',
+      analyzerPort: 8889,
+      analyzerMode: 'static',
+      openAnalyzer: false,
+    }),
   ],
 };
