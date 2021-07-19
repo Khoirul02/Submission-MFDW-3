@@ -15,7 +15,7 @@
 <body>
 <a href="#main-content" class="skip-link">Menuju ke Konten</a>
 <div class="logo_header_nav">
-    <button  id="menu" class="header__menu">☰</button>
+    <button aria-label="hamburger"  id="menu" class="header__menu">☰</button>
     <header>
         <div id="img-header">
             <img class="lazyload" src="/images/logo.png" alt="Logo Resto & Cafe" style="width: 200px; margin-top: 10px;">
@@ -30,6 +30,12 @@
     </nav>
 </div>
 <div class="hero">
+    <picture>
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_4-small.jpg">
+        <img 
+            src='./images/heros/hero-image_4-large.jpg' 
+            alt="hero"></img>
+    </picture>
     <div class="hero__title">
         <h1>Cafe & Resto</h1>
         <p class="hero__tagline">Informasi tepat dan akurat mengenai cafe & resto</p>
