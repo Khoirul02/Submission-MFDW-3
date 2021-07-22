@@ -15,6 +15,8 @@ Scenario('Like a Restaurant', ({ I }) => {
   I.amOnPage('#/detail-restaurant/rqdv5juczeskfw1e867');
   I.seeElement('#likeButtonContainer');
   I.click(locate('#likeButton').first());
+  I.amOnPage('/#/favorite');
+  I.seeElement('.post-item');
 });
 
 Scenario('Unlike a Restaurant', ({ I }) => {
