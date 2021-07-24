@@ -24,6 +24,11 @@
     margin-top:10px;
     font-weight: bold;
 }
+.latest a{
+    display:block;
+    width:150px;
+    height:77px;
+}
 
 .post-item-detail {
     margin: 16px 0;

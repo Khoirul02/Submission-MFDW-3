@@ -5,6 +5,6 @@ const CONFIG = {
   API_KEY: '12345',
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'restaurants',
-  CACHE_NAME: new Date().toISOString(),
+  CACHE_NAME: 'restaurantAppsV1',
 };
 export default CONFIG;

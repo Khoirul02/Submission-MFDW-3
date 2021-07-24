@@ -3,6 +3,11 @@
    padding-right: 20px;
 }
 
+#img-header img{
+    width: 200px; 
+    margin-top: 10px;
+}
+
 .header {
     min-height: 56px;
     transition: min-height 0.3s;

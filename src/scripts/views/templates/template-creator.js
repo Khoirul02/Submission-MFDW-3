@@ -17,7 +17,7 @@ const createRestaurantItemTemplate = (restaurant) => `
             <div>
         </div>
         <a href="#/detail-restaurant/${restaurant.id}">
-        <button class="button-item">Detail</button>
+            <button class="button-item">Detail</button>
         </a>
     </article>
 `;
