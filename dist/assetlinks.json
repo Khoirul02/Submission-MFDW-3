@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "web", "package_name": "com.khoirulhuda.restaurant",
+                 "sha256_cert_fingerprints": ["E1:DB:E6:6E:51:C3:0E:15:1B:1F:29:27:91:F3:95:FD:38:96:B2:CE:EA:A9:AD:04:5F:7E:EF:89:82:57:AB:E8"] }
+}]
